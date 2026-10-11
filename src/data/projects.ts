@@ -12,8 +12,8 @@ const featured: { repo: string; blurb?: string; tags?: string[] }[] = [
     blurb: "Hands-on Palo Alto next-generation firewall labs, from interfaces to SSL decryption.",
     tags: ["Network security", "Palo Alto"],
   },
-  // { repo: "your-second-repo", blurb: "One line about it.", tags: ["Tag"] },
-  // { repo: "your-third-repo", blurb: "One line about it.", tags: ["Tag"] },
+  { repo: "Cloud-pool-manager", blurb: "A deterministic controller that sizes an AWS warm pool from live CPU once a minute. No model or forecast, and it can be verified offline.", tags: ["AWS", "Cloud", "Python"] },
+{ repo: "Credit-risk-analyser", blurb: "Credit risk analysis on a credit card default dataset, built in Python and Jupyter.", tags: ["Python", "Data analysis"] },
 ];
 
 export type Project = {
