@@ -8,7 +8,7 @@ const USER = "raghavguptaa";
 // Add your other two repos below in the same format.
 const featured: { repo: string; blurb?: string; tags?: string[] }[] = [
   {
-    repo: "palo-alto-ngfw",
+    repo: "Palo-alto-ngfw",
     blurb: "Hands-on Palo Alto next-generation firewall labs, from interfaces to SSL decryption.",
     tags: ["Network security", "Palo Alto"],
   },
