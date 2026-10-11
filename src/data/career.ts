@@ -34,10 +34,10 @@ export const career: CareerEntry[] = [
 
 // TODO(Raghav): keep only what you have actually used, and add more as you learn.
 export const skills = {
-  Networking: ["Palo Alto NGFW", "Firewall policies", "SSL decryption"],
-  Security: ["Network security", "Pentesting", "Blue team"],
-  Platforms: ["Kali Linux", "Linux"],
-  Tools: ["Git", "GitHub"],
+  "Network Security": ["Palo Alto NGFW", "NAT", "Security zones", "Micro-segmentation"],
+  Cryptography: ["AES-256-GCM", "RSA", "Web Crypto API", "SSL/TLS"],
+  "Security Ops & VAPT": ["VAPT", "Incident response", "Log analysis"],
+  "Tools & Cloud": ["Kali Linux", "Nmap", "Wireshark", "Splunk", "AWS", "GCP"],
 };
 
 // The career read as a git log: a short, stable "commit hash" per entry (FNV-1a, so it never
