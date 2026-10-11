@@ -93,7 +93,6 @@ const stopData = places.map((p) => ({ name: p.name, region: p.region, lat: p.lat
         <p class="at-hero__intro in-up">{site.intro}</p>
         <div class="at-hero__ctas">
           <a class="at-btn at-btn--solid in-cta" style="--k: 0" href="#journey" data-magnetic="0.25">Begin the journey <span aria-hidden="true">↓</span></a>
-          <a class="at-btn in-cta" style="--k: 1" href="/" data-magnetic="0.25">Career &amp; code <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <div class="at-hero__hint in-late" aria-hidden="true">
@@ -936,10 +935,9 @@ const stopData = places.map((p) => ({ name: p.name, region: p.region, lat: p.lat
   .ft-q { transition: filter 0.8s; }
   .at-footer.is-arrived .ft-q { filter: drop-shadow(0 0 22px rgba(255, 180, 84, 0.6)); }
   @media (prefers-reduced-motion: reduce) { .ft-arc__from, .ft-arc__head, .ft-q { transition: none; } }
-  /* Photography and Writing are gone from this site. The Photography card stays in the page (the
-     logbook script hooks into it) but is hidden; the remaining panels fill the freed space. */
-  .lb-door--photo { display: none; }
+  /* Photography and Writing are gone from this site. The Photography and Career cards stay in the page (the
+     logbook script hooks into them) but are hidden; the remaining panels fill the freed space. */
+  .lb-door--photo, .lb-door--career { display: none; }
   .lb-panel { grid-column: span 7; }
-  .lb-panel:last-child { grid-column: 1 / -1; }
   @media (max-width: 1000px) { .lb-panel { grid-column: 1 / -1; } }
 </style>
