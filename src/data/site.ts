@@ -22,7 +22,7 @@ export const socials = [
 
 // The pages, in menu order. Shared header + footer (src/components/) render from this.
 export const pages = [
-  { id: "home", label: "Journey", href: "/" },
-  { id: "career", label: "Career", href: "/career/" },
+  { id: "career", label: "Career", href: "/" },
+  { id: "home", label: "Journey", href: "/journey/" },
 ] as const;
 export type PageId = (typeof pages)[number]["id"];
