@@ -19,6 +19,11 @@ const featured: { repo: string; blurb?: string; tags?: string[] }[] = [
   },
   { repo: "Cloud-pool-manager", blurb: "A deterministic controller that sizes an AWS warm pool from live CPU once a minute. No model or forecast, and it can be verified offline.", tags: ["AWS", "Cloud", "Python"] },
 { repo: "Credit-risk-analyser", blurb: "Credit risk analysis on a credit card default dataset, built in Python and Jupyter.", tags: ["Python", "Data analysis"] },
+  {
+    repo: "aws-cloud-threat-detection-soar",
+    blurb: "A cloud security pipeline that detects unauthorized access in AWS and automatically blocks the attacker, with no manual steps.",
+    tags: ["AWS", "Threat detection", "SOAR"],
+  },
 ];
 
 export type Project = {
