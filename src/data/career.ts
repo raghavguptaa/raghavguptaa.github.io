@@ -12,14 +12,14 @@ export type CareerEntry = {
 };
 
 export const career: CareerEntry[] = [
-  {
+    {
     kind: "milestone",
-    title: "Enterprise Network Security with Palo Alto NGFW",
+    title: "Rag X: browser-based encryption toolkit",
     org: "GitHub",
-    start: "2026-01", // TODO(Raghav): replace with the month you started the labs
+    start: "2026-10", // change to the month you actually started it
     summary:
-      "Hands-on Palo Alto next-generation firewall labs, built in real deployment order: from interfaces to SSL decryption.",
-    tags: ["Palo Alto", "NGFW", "SSL decryption"],
+      "Text, file and vault encryption that runs entirely in the browser with the Web Crypto API, so data and keys never leave the device. Only PDF protection and optional accounts use the server.",
+    tags: ["Cryptography", "Web Crypto API", "Security"],
   },
   {
     kind: "education",
