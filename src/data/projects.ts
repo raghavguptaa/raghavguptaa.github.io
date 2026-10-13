@@ -7,6 +7,11 @@ const USER = "raghavguptaa";
 // TODO(Raghav): the repo name must match GitHub exactly (open your repo and copy it from the URL).
 // Add your other two repos below in the same format.
 const featured: { repo: string; blurb?: string; tags?: string[] }[] = [
+    {
+    repo: "rag-x",
+    blurb: "Encrypt text, files and vaults in the browser with the Web Crypto API. Your data and keys never leave your device.",
+    tags: ["Cryptography", "Web Crypto API"],
+  },
   {
     repo: "Palo-alto-ngfw",
     blurb: "Hands-on Palo Alto next-generation firewall labs, from interfaces to SSL decryption.",
