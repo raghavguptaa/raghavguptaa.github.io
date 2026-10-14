@@ -56,4 +56,5 @@ export const places: Place[] = [
   { id: "ujjain", name: "Ujjain", region: "Madhya Pradesh", lat: 23.18, lng: 75.78, note: "The temple city on the Shipra.", when: "2025-12" },
   { id: "khandwa", name: "Khandwa", region: "Madhya Pradesh", lat: 21.83, lng: 76.35, note: "Same trip, further south in Madhya Pradesh.", when: "2025-12", leg: true },
   { id: "chennai", name: "Chennai", region: "Tamil Nadu", lat: 13.08, lng: 80.27, note: "The farthest south so far.", when: "2026-08" },
+  { id: "mahabalipuram", name: "Mahabalipuram", region: "Tamil Nadu", lat: 12.62, lng: 80.19, note: "Shore temples and carved rocks by the Bay of Bengal.", when: "2026-10" },
 ];
