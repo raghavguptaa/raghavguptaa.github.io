@@ -57,4 +57,5 @@ export const places: Place[] = [
   { id: "khandwa", name: "Khandwa", region: "Madhya Pradesh", lat: 21.83, lng: 76.35, note: "Same trip, further south in Madhya Pradesh.", when: "2025-12", leg: true },
   { id: "chennai", name: "Chennai", region: "Tamil Nadu", lat: 13.08, lng: 80.27, note: "The farthest south so far.", when: "2026-08" },
   { id: "mahabalipuram", name: "Mahabalipuram", region: "Tamil Nadu", lat: 12.62, lng: 80.19, note: "Shore temples and carved rocks by the Bay of Bengal.", when: "2026-10" },
+  { id: "rameshwaram", name: "Rameshwaram", region: "Tamil Nadu", lat: 9.29, lng: 79.31, note: "The island town at the tip of Tamil Nadu, reached over the Pamban Bridge.", when: "2026-10" },
 ];
